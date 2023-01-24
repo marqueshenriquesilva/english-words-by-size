@@ -16,6 +16,7 @@ Main files:
   
  If you want to work with the *lists*, I recommend using either one of these two files:
   - [words_by_size_list.txt](words_by_size_list.txt) contains all words (including numbers and symbols) in the Python list type.
+  - [words_by_size_list_alpha.txt](words_by_size_list_alpha.txt) for alphanumeric only.
   
 I also added some of the script files that I used to do the conversions.
   - [organize_words.py](scripts/organize_words.py).

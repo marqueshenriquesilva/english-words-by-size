@@ -64,7 +64,7 @@ if __name__ == '__main__':
     # writes words organized by size in file
     writes_words_by_size("words_by_size.txt")
 
-    # user prompt for words list per number of letters
-    user_word_list_selection(words_by_size)
+    # extra function, user prompt for words list per number of letters
+    # user_word_list_selection(words_by_size)
 
     print("Finished")

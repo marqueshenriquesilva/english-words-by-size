@@ -6,7 +6,7 @@ This list is based on the work done on [this](https://github.com/dwyl/english-wo
 
 As I was searching for a good word list for my Wordle app, I found lots of lists organized by alphabetical order, but I had trouble finding a good list of words organized by size (number of letters).
 
-For this reason, I made this list, organized by size *and* alphabetical order, in a simple new-line-delimited text file so you can use it for your apps, databases, games, etc.
+For this reason, I shaped this list, organized by size *and* alphabetical order, in a simple new-line-delimited text file so you can use it for your apps, databases, games, etc.
 
 Main files:
   - [words_by_size.txt](words_by_size.txt) contains all words (including numbers and symbols).

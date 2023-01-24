@@ -28,21 +28,6 @@ def writes_words_by_size(filename):
     file_wordsize.close()
 
 
-def user_word_list_selection(words_by_size):
-    # user selects list of words according to words size
-    while (True):
-        select = input("Select word by number of letters (type X to escape): ")
-
-        if (select == 'X' or select == 'x'):
-            break
-        elif (int(select) > len(words_by_size)):
-            print(f"Index out of range. Maximun range: {len(words_by_size)}.")
-        else:
-            for i in words_by_size[int(select) - 1]:
-                print(i, end=' ')
-            print('\n')
-
-
 if __name__ == '__main__':
     english_words = load_words("words.txt")
 
@@ -63,8 +48,5 @@ if __name__ == '__main__':
 
     # writes words organized by size in file
     writes_words_by_size("words_by_size.txt")
-
-    # user prompt for words list per number of letters
-    user_word_list_selection(words_by_size)
 
     print("Finished")

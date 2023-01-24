@@ -12,6 +12,7 @@ Main files:
   - [words_by_size.txt](words_by_size.txt) contains all words (including numbers and symbols).
   - [words_by_size_alpha.txt](words_by_size_alpha.txt) contains words with only alphanumeric characters.
   - [words_with_size.json](words_with_size.json) contains a json file with words ordered **only in alphabetical order**, but with the value of their sizes.
+  - [words_with_size_alpha.json](words_with_size_alpha.json) contains a json file with alphanumeric words.
   
 I also added some of the script files that I used to do the conversions.
   - [organize_words.py](scripts/organize_words.py).

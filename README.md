@@ -11,8 +11,11 @@ For this reason, I shaped this list, organized by size *and* alphabetical order,
 Main files:
   - [words_by_size.txt](words_by_size.txt) contains all words (including numbers and symbols).
   - [words_by_size_alpha.txt](words_by_size_alpha.txt) contains words with only alphanumeric characters.
-  - [words_with_size.json](words_with_size.json) contains a json file with words ordered **only in alphabetical order**, but with the value of their sizes.
+  - [words_with_size.json](words_with_size.json) contains a json file with words ordered **only in alphabetical order**, but with the value of their sizes (I honestly can't think of a good reason for this file to exist since you can just use *len("word")*).
   - [words_alpha_with_size.json](words_alpha_with_size.json) contains a json file with alphanumeric words.
+  
+ If you want to work with the *lists*, I recommend using either one of these two files:
+  - [words_by_size_list.txt](words_by_size_list.txt) contains all words (including numbers and symbols) in the Python list type.
   
 I also added some of the script files that I used to do the conversions.
   - [organize_words.py](scripts/organize_words.py).
